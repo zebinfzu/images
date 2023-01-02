@@ -1,0 +1,18 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(235, 234, 219, 0.45);
+  .title {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+  }
+  .container {
+    padding: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+}
